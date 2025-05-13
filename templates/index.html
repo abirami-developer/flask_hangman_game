@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/premium-photo/platform-game-background-template_1298309-35353.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 1500px 700px;
+        }
+
+        #butt:hover {
+            cursor: pointer;
+        }
+
+        label:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Hangman Game</h1>
+        <h1>{{ curr }}</h1>
+        <h2>{{ display_word }}</h2>
+        <h3>{{ attempts_left }}</h3>
+
+        <form method="POST">
+            <label for="word">Enter Guessed word: </label>
+            <input type="text" name="guess" maxlength="1" id="word" required>
+            <button type="submit" id="butt">Guess</button>
+        </form>
+    </center>
+</body>
+</html>

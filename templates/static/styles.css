@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://img.freepik.com/premium-photo/platform-game-background-template_1298309-35353.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px 700px;
+}
+
+#lin {
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+#lin:hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+h1, a {
+    margin-top: 200px;
+    font-family: Arial, sans-serif;
+}

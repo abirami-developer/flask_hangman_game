@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <center>
+        <h1>{{ result }}</h1>
+        <a href="{{ url_for('hangman') }}" id="lin">Play Again</a>
+    </center>
+</body>
+</html>
